@@ -1,0 +1,900 @@
+{
+   "books":[
+      {
+         "self-help":[
+            {
+               "name":"The 7 Habits of Highly Effective People",
+               "category":"Self-help",
+               "author":"Stephen R. Covey",
+               "price":"20.54",
+               "published-date":"1/1/1994",
+               "img-url":"../images/self-help/book-1.jpg",
+               "book-url":"../../pdf/self-help/book-1.pdf",
+               "id":"1",
+               "introduction":"Stephen R. Covey presents a holistic, integrated, principle-centered approach for solving personal and professional problems."
+            },
+            {
+               "name":"Rich Dad Poor Dad",
+               "category":"Self-help",
+               "author":"Robert T. Kiyosaki",
+               "price":"11.62",
+               "published-date":"11/4/2017",
+               "img-url":"../images/self-help/book-2.jpg",
+               "book-url":"../../pdf/self-help/book-2.pdf",
+               "id":"2",
+               "introduction":"What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! "
+            },
+            {
+               "name":"Think and Grow Rich",
+               "category":"Self-help",
+               "author":"Napoleon Hill",
+               "price":"11.62",
+               "published-date":"1/1/1937",
+               "img-url":"../images/self-help/book-3.jpg",
+               "book-url":"../../pdf/self-help/book-3.pdf",
+               "id":"3",
+               "introduction":"Napoleon Hill researched more than forty millionaires to find out what made them the men that they were."
+            },
+            {
+               "name":"How to Win Friends and Influence People",
+               "category":"Self-help",
+               "author":"Dale Carnegie",
+               "price":" 14.60",
+               "published-date":"1/10/1998",
+               "img-url":"../images/self-help/book-4.jpg",
+               "book-url":"../../pdf/self-help/book-4.pdf",
+               "id":"4",
+               "introduction":"To make friends, influence others and get them in our corner, it is important to know how to look after their ego"
+            },
+            {
+               "name":"Zero to One: Notes on Startups",
+               "category":"Self-help",
+               "author":" Peter Thiel with Blake Masters",
+               "price":" 14.58",
+               "published-date":"16/9/2014",
+               "img-url":"../images/self-help/book-5.jpg",
+               "book-url":"../../pdf/self-help/book-5.pdf",
+               "id":"5",
+               "introduction":"Notes on Startups, or How to Build the Future"
+            },
+            {
+               "name":"Feeling Good: The New Mood Therapy",
+               "category":"Self-help",
+               "author":"David D. Burns",
+               "price":"12.34",
+               "published-date":"30/12/2008",
+               "img-url":"../images/self-help/book-6.jpg",
+               "book-url":"../../pdf/self-help/book-6.pdf",
+               "id":"6",
+               "introduction":"You can change your moods by learning how to restructure your negative thoughts."
+            },
+            {
+               "name":"Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time",
+               "category":"Self-help",
+               "author":"David D. Burns",
+               "price":"12.34",
+               "published-date":"30/12/2008",
+               "img-url":"../images/self-help/book-7.jpg",
+               "book-url":"../../pdf/self-help/book-7.pdf",
+               "id":"7",
+               "introduction":"21 Great Ways to Stop Procrastinating and Get More Done in Less "
+            },
+            {
+               "name":"The 5 AM Club",
+               "category":"Self-help",
+               "author":"Robin Sharma",
+               "price":"11.55",
+               "published-date":"4/12/2018",
+               "img-url":"../images/self-help/book-8.jpg",
+               "book-url":"../../pdf/self-help/book-8.pdf",
+               "id":"8",
+               "introduction":"Self-help book, in The 5 AM Club, Robin Sharma tells the story of a fictional artist, an entrepreneur, and a tycoon to explain the benefits of rising early every morning."
+            },
+            {
+               "name":"The Miracle Morning",
+               "category":"Self-help",
+               "author":"Hal Elrod",
+               "price":"18.09",
+               "published-date":"7/12/2012",
+               "img-url":"../images/self-help/book-9.jpg",
+               "book-url":"../../pdf/self-help/book-9.pdf",
+               "id":"9",
+               "introduction":"How you wake up each day and your morning routine (or lack thereof) dramatically affects your levels of success in every single area of your life."
+            },
+            {
+               "name":"You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life",
+               "category":"Self-help",
+               "author":"Jen Sincero",
+               "price":"7.25",
+               "published-date":"23/4/2013",
+               "img-url":"../images/self-help/book-10.jpg",
+               "book-url":"../../pdf/self-help/book-10.pdf",
+               "id":"10",
+               "introduction":"You are a Badass points out everything wrong with our daily choices. We live our lives doing what others tell us to do and what we think we are supposed to do."
+            }
+         ],
+         "cookbooks":[
+            {
+               "name":"Think and Grow Rich",
+               "category":"Cookbooks",
+               "author":"Heviz's",
+               "price":"20.45",
+               "published-date":" 4/2/2016",
+               "img-url":"../images/cookbooks/book-1.jpg",
+               "book-url":"../../pdf/cookbooks/book-1.pdf",
+               "id":"1",
+               "introduction":"Delicious and Healthy Recipes You Can Quickly and Easily Cook."
+            },
+            {
+               "name":"The Cake Bible",
+               "category":"cookbooks",
+               "author":"Valeriu Cotet",
+               "price":"25.65",
+               "published-date":"7/12/2015",
+               "img-url":"../images/cookbooks/book-2.jpg",
+               "book-url":"../../pdf/cookbooks/book-2.pdf",
+               "id":"2",
+               "introduction":"If you ever bake a cake, this book will become your partner in the kitchen"
+            },
+            {
+               "name":"The Flavor Bible",
+               "category":"cookbooks",
+               "author":"Karen Page",
+               "price":"40.36",
+               "published-date":"1/9/2008",
+               "img-url":"../images/cookbooks/book-3.jpg",
+               "book-url":"../../pdf/cookbooks/book-3.pdf",
+               "id":"3",
+               "introduction":"The Essential Guide to Culinary Creativity, Based on the Wisdom of America's Most Imaginative Chefs"
+            },
+            {
+               "name":"Good Housekeeping The Little Book of Baking",
+               "category":"cookbooks",
+               "author":"Susan Westmoreland",
+               "price":"11.72",
+               "published-date":"2/10/2012",
+               "img-url":"../images/cookbooks/book-4.jpg",
+               "book-url":"../../pdf/cookbooks/book-4.pdf",
+               "id":"4",
+               "introduction":"55 Homemade Cookies, Cakes, Cupcakes & Pies to Make & Share"
+            },
+            {
+               "name":"The Joy of Gluten-Free, Sugar-Free Baking",
+               "category":"cookbooks",
+               "author":"Peter Reinhart",
+               "price":"24.47",
+               "published-date":"14/8/2012",
+               "img-url":"../images/cookbooks/book-5.jpg",
+               "book-url":"../../pdf/cookbooks/book-5.pdf",
+               "id":"5",
+               "introduction":"80 Low-Carb Recipes that Offer Solutions for Celiac Disease, Diabetes, and Weight Loss"
+            },
+            {
+               "name":"Baking Sourdough Bread",
+               "category":"cookbooks",
+               "author":"Göran Söderin",
+               "price":"11.99",
+               "published-date":" 20/6/2017",
+               "img-url":"../images/cookbooks/book-6.jpg",
+               "book-url":"../../pdf/cookbooks/book-6.pdf",
+               "id":"6",
+               "introduction":"Dozens of Recipes for Artisan Loaves, Crackers, and Sweet Breads"
+            },
+            {
+               "name":"Keto Comfort Foods",
+               "category":"cookbooks",
+               "author":"Maria Emmerich",
+               "price":"15.69",
+               "published-date":"2/5/2017",
+               "img-url":"../images/cookbooks/book-7.jpg",
+               "book-url":"../../pdf/cookbooks/book-7.pdf",
+               "id":"7",
+               "introduction":"Family Favorite Recipes Made Low-Carb and Healthy"
+            },
+            {
+               "name":"Healthy Indian Vegetarian Cooking",
+               "category":"cookbooks",
+               "author":"Shubhra Ramineni ",
+               "price":"18.95",
+               "published-date":"4/6/2013",
+               "img-url":"../images/cookbooks/book-8.jpg",
+               "book-url":"../../pdf/cookbooks/book-8.pdf",
+               "id":"8",
+               "introduction":"Easy Recipes for the Hurry Home Cook"
+            },
+            {
+               "name":"Fine Cooking Italian",
+               "category":"cookbooks",
+               "author":"Editors of Fine Cooking",
+               "price":"12.48",
+               "published-date":"17/6/2012",
+               "img-url":"../images/cookbooks/book-9.jpg",
+               "book-url":"../../pdf/cookbooks/book-9.pdf",
+               "id":"9",
+               "introduction":"200 Recipes for Authentic Italian Food"
+            },
+            {
+               "name":"Fine Cooking Comfort Food",
+               "category":"cookbooks",
+               "author":"Editors of Fine Cooking",
+               "price":" 13.95",
+               "published-date":"8/11/2011",
+               "img-url":"../images/cookbooks/book-10.jpg",
+               "book-url":"../../pdf/cookbooks/book-10.pdf",
+               "id":"10",
+               "introduction":"200 Delicious Recipes for Soul-Warming Meals"
+            }
+         ],
+         "poetry":[
+            {
+               "name":"Leaves of Grass",
+               "category":"poetry",
+               "author":"by Walt Whitman",
+               "price":"15.00",
+               "published-date":"3/9/1855",
+               "img-url":"../images/poetry-images/book-1.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-1.pdf",
+               "id":"1",
+               "introduction":"A young English gentleman of means, Aubrey, is immediately intrigued by Lord Ruthven, the mysterious newcomer among society's elite. The young man soon discovers a sinister character hidden behind his new friend's glamorous facade."
+            },
+            {
+               "name":"Milk and Honey",
+               "category":"poetry",
+               "author":"Rupi Kaur",
+               "price":"27.62",
+               "published-date":"6/10/2015",
+               "img-url":"../images/poetry-images/book-3.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-2.pdf",
+               "id":"2",
+               "introduction":"The Man Who Knew Too Much traces the activities of Horne Fisher and his trusted friend Harold March. Although Horne's keen mind and powerful deductive gifts make him a natural sleuth, his inquiries have a way of developing moral complications."
+            },
+            {
+               "name":"Love & Misadventure",
+               "category":"poetry",
+               "author":"Lang Leav",
+               "price":"20.62",
+               "published-date":"17/9/2013",
+               "img-url":"../images/poetry-images/book-3.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-3.pdf",
+               "id":"3",
+               "introduction":"As the French and Indian war rages, the two daughters of a British officer prepare to return home."
+            },
+            {
+               "name":"How to Win Friends and Influence People",
+               "category":"Self-help",
+               "author":"Dale Carnegie",
+               "price":" 14.60",
+               "published-date":"17/9/2013",
+               "img-url":"../images/poetry-images/book-4.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-4.pdf",
+               "id":"4",
+               "introduction":"Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the French language."
+            },
+            {
+               "name":"Sea of Strangers",
+               "category":"poetry",
+               "author":" Pierre Alex Jeanty",
+               "price":" 43.58",
+               "published-date":"9/1/2018",
+               "img-url":"../images/poetry-images/book-5.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-5.pdf",
+               "id":"5"
+            },
+            {
+               "name":"Her",
+               "category":"poetry",
+               "author":"David D. Burns",
+               "price":"50.34",
+               "published-date":"11/2/2016",
+               "img-url":"../images/poetry-images/book-6.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-6.pdf",
+               "id":"6",
+               "introduction":"Dumas transforms minor historical figures into larger- than-life characters: the Comte d’Artagnan, an impetuous young man in pursuit of glory; the beguilingly evil seductress “Milady”; the powerful and devious Cardinal Richelieu."
+            },
+            {
+               "name":"To the Women I Once Loved",
+               "category":"poetry",
+               "author":"Pierre Alex Jeanty",
+               "price":"43.34",
+               "published-date":"4/9/2015",
+               "img-url":"../images/poetry-images/book-7.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-7.pdf",
+               "id":"7",
+               "introduction":"Idealistic young scientist Henry Jekyll struggles to unlock the secrets of the soul. Testing chemicals in his lab, he drinks a mixture he hopes will isolate - and eliminate - human evil. Instead it unleashes the dark forces within him, transforming him into the hideous and murderous Mr. Hyde."
+            },
+            {
+               "name":"Romeo and Juliet",
+               "category":"poetry",
+               "author":"William Shakespeare",
+               "price":"30.55",
+               "published-date":"1/11/1597",
+               "img-url":"../images/poetry-images/book-8.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-8.pdf",
+               "id":"8",
+               "introduction":"The Brothers Karamasov is a murder mystery, a courtroom drama, and an exploration of erotic rivalry in a series of triangular love affairs involving the “wicked and sentimental” Fyodor Pavlovich Karamazov and his three sons―the impulsive and sensual Dmitri."
+            },
+            {
+               "name":"Hamlet",
+               "category":"poetry",
+               "author":"William Shakespeare",
+               "price":"40.09",
+               "published-date":"56,16/2/1603",
+               "img-url":"../images/poetry-images/book-9.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-9.pdf",
+               "id":"9"
+            },
+            {
+               "name":"King Lear",
+               "category":"poetry",
+               "author":"William Shakespeare",
+               "price":"20.25",
+               "published-date":"16/8/1623",
+               "img-url":"../images/poetry-images/book-10.jpg",
+               "book-url":"../../pdf/poetry-../../pdf/book-10.pdf",
+               "id":"10",
+               "introduction":"Fooled into committing a crime by the king's foresters, young Robin Hood finds himself branded an outlaw. As he takes refuge in Sherwood Forest, he meets other hideaways who also unjustly find themselves on the wrong side of the law. "
+            }
+         ],
+         "fitness":[
+            {
+               "id-number":"1",
+               "name":"Men's Fitness Complete Guide to Home Workouts",
+               "category":"fitness",
+               "author":"Men's Fitness",
+               "price":"18.45",
+               "published-date":"1/1/2011",
+               "img-url":"../images/fitness-images/book-1.jpg",
+               "book-url":"../../pdf/fitness-../../pdf/book-1.pdf",
+               "id":"1",
+               "introduction":" Well, that is the Marquis of Moscoso, suitor to the widowed Countess of Villapineda. They say that before setting his eyes upon this lady, he had asked in marriage the daughter of a man of large fortune, but hush! Speaking of the devil—do you see that man coming on foot under the..."
+            },
+            {
+               "name":"The Cake Bible",
+               "category":"cookbooks",
+               "author":"Valeriu Cotet",
+               "price":"25.65",
+               "published-date":"7/12/2015",
+               "img-url":"../images/fitness-images/book-2.jpg",
+               "book-url":"../../pdf/cookbooks/book-2.pdf",
+               "id":"2",
+               "introduction":"It was a dark autumn night. The old banker was pacing from corner to corner of his study, recalling to his mind the party he gave in the autumn fifteen years ago. There were many clever people at the party and much interesting conversation."
+            },
+            {
+               "name":"The Flavor Bible",
+               "category":"cookbooks",
+               "author":"Karen Page",
+               "price":"40.36",
+               "published-date":"1/9/2008",
+               "img-url":"../images/fitness-images/book-3.jpg",
+               "book-url":"../../pdf/cookbooks/book-3.pdf",
+               "id":"3",
+               "introduction":"This is Oscar Wilde's tale of the American family moved into a British mansion, Canterville Chase, much to the annoyance of its tired ghost. The tale is rich with allusion."
+            },
+            {
+               "name":"Good Housekeeping The Little Book of Baking",
+               "category":"cookbooks",
+               "author":"Susan Westmoreland",
+               "price":"11.72",
+               "published-date":"2/10/2012",
+               "img-url":"../images/fitness-images/book-4.jpg",
+               "book-url":"../../pdf/cookbooks/book-4.pdf",
+               "id":"4",
+               "introduction":"an attempt to uncover the identity of Mr. W. H., the enigmatic dedicatee of Shakespeare's Sonnets. It is based on a theory, originated by Thomas Tyrwhitt."
+            },
+            {
+               "name":"The Joy of Gluten-Free, Sugar-Free Baking",
+               "category":"cookbooks",
+               "author":"Peter Reinhart",
+               "price":"24.47",
+               "published-date":"14/8/2012",
+               "img-url":"../images/fitness-images/book-5.jpg",
+               "book-url":"../../pdf/fitness-pdf/pdf-5.pdf",
+               "id":"5",
+               "introduction":"a story of a young man fighting his inner restlessness. His unnamed protagonist is a sensitive, poetic resident of the very Westernized St. Petersburg of the mid-nineteenth century"
+            },
+            {
+               "name":"Baking Sourdough Bread",
+               "category":"cookbooks",
+               "author":"Göran Söderin",
+               "price":"11.99",
+               "published-date":" 20/6/2017",
+               "img-url":"../images/fitness-images/book-6.jpg",
+               "book-url":"../../pdf/cookbooks/book-6.pdf",
+               "id":"6"
+            },
+            {
+               "name":"Keto Comfort Foods",
+               "category":"cookbooks",
+               "author":"Maria Emmerich",
+               "price":"15.69",
+               "published-date":"2/5/2017",
+               "img-url":"../images/fitness-images/book-7.jpg",
+               "book-url":"../../pdf/cookbooks/book-7.pdf",
+               "id":"7",
+               "introduction":" As if Dracula had created the Best Blood Transfusion Award, or Nero the prize for Fire Fighter of the Decade, or Henry VIII for Wife of the Month. Wouldn’t any of these prizes be downright crazy? Well, that’s exactly why I’ve decided that I don’t want to win a Nobel Prize"
+            },
+            {
+               "name":"Healthy Indian Vegetarian Cooking",
+               "category":"cookbooks",
+               "author":"Shubhra Ramineni ",
+               "price":"18.95",
+               "published-date":"4/6/2013",
+               "img-url":"../images/fitness-images/book-8.jpg",
+               "book-url":"../../pdf/cookbooks/book-8.pdf",
+               "id":"8",
+               "introduction":"Published from 1851 to 1853, Household Words featured as its main attraction during the Christmas season a lengthy short story penned by Dickens himself. During these years Dickens’s world view underwent a sea change, from youthful optimism to looming disillusion with the course of human affairs."
+            },
+            {
+               "name":"Fine Cooking Italian",
+               "category":"cookbooks",
+               "author":"Editors of Fine Cooking",
+               "price":"12.48",
+               "published-date":"17/6/2012",
+               "img-url":"../images/fitness-images/book-9.jpg",
+               "book-url":"../../pdf/cookbooks/book-9.pdf",
+               "id":"9",
+               "introduction":"One dollar and eight-seven cents is all the money Della has in the world to buy her beloved husband a Christmas present. She has nothing to sell except her only treasure -- her long, beautiful brown hair."
+            },
+            {
+               "name":"Fine Cooking Comfort Food",
+               "category":"cookbooks",
+               "author":"Editors of Fine Cooking",
+               "price":" 13.95",
+               "published-date":"8/11/2011",
+               "img-url":"../images/fitness-images/book-10.jpg",
+               "book-url":"../../pdf/cookbooks/book-10.pdf",
+               "id":"10",
+               "introduction":"At Your Age, a 1929 short story published in the Saturday Evening Post, contains all the trademark elements that F. Scott Fitzgerald's readers had come to expect by the end of the Jazz Age."
+            }
+         ],
+         "Novel":[
+            {
+               "name":"The Vampyre",
+               "category":"novel",
+               "auther":"'John William Polidori'",
+               "price":"20.45",
+               "published-date":" '1/4/1819'",
+               "img-url":"../images/novel/book-1.jpg",
+               "book-url":"../../pdf/novel/the_vampyre.pdf",
+               "introduction":"A young English gentleman of means, Aubrey, is immediately intrigued by Lord Ruthven, the mysterious newcomer among society's elite. The young man soon discovers a sinister character hidden behind his new friend's glamorous facade.",
+               "id":"1"
+            },
+            {
+               "name":"'The Man Who Knew Too Much'",
+               "category":"novel",
+               "auther":"'Gilbert Keith Chesterton'",
+               "price":"25.65",
+               "published-date":"'20/3/1922'",
+               "img-url":"../images/novel/book-2.jpg",
+               "book-url":"../../pdf/novel/the_man_who_knew_too_much.pdf",
+               "introduction":"The Man Who Knew Too Much traces the activities of Horne Fisher and his trusted friend Harold March. Although Horne's keen mind and powerful deductive gifts make him a natural sleuth, his inquiries have a way of developing moral complications.",
+               "id":"2"
+            },
+            {
+               "name":"The Last of the Mohicans",
+               "category":"novel",
+               "auther":"'James Fenimore Cooper'",
+               "price":"40.36",
+               "published-date":"'2/1/1826'",
+               "img-url":"../images/novel/book-3.jpg",
+               "book-url":"../../pdf/novel/the_last_of_the_mohicans.pdf",
+               "introduction":"As the French and Indian war rages, the two daughters of a British officer prepare to return home.",
+               "id":"3"
+            },
+            {
+               "name":"The Little Prince",
+               "category":"novel",
+               "auther":"'Antoine de Saint-Exupéry",
+               "price":"11.72",
+               "published-date":"6/4/1943",
+               "img-url":"../images/novel/book-4.jpg",
+               "book-url":"../../pdf/novel/the_little_prince.pdf",
+               "introduction":"Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the French language.",
+               "id":"4"
+            },
+            {
+               "name":"The Three Musketeers",
+               "category":"novel",
+               "auther":"Alexandre Dumas",
+               "price":"24.47",
+               "published-date":"'13/1/1973",
+               "img-url":"../images/novel/book-5.jpg",
+               "book-url":"../../pdf/novel/the_three_musketeers.pdf",
+               "introduction":"Dumas transforms minor historical figures into larger- than-life characters: the Comte d’Artagnan, an impetuous young man in pursuit of glory; the beguilingly evil seductress “Milady”; the powerful and devious Cardinal Richelieu.",
+               "id":"5"
+            },
+            {
+               "name":"Madame Bovary",
+               "category":"novel",
+               "auther":"Gustave Flaubert",
+               "price":"11.99",
+               "published-date":"16/3/1856",
+               "img-url":"../images/novel/book-6.jpg",
+               "book-url":"../../pdf/novel/madame_bovary.pdf",
+               "introduction":"Unanimously considered one of the best novels of all time, Madame Bovary recounts the dark tragedy of Emma Bovary, an unhappily married woman whose dreams cruelly collide with reality.",
+               "id":"6"
+            },
+            {
+               "name":"The Strange Case of Dr. Jekyll and Mr. haydi",
+               "category":"novel",
+               "auther":"Robert Louis Stevenson",
+               "price":"15.69",
+               "published-date":"5/6/1886",
+               "img-url":"../images/novel/book-7.jpg",
+               "book-url":"../../pdf/novel/the_strange_case_of_dr_jekyll_and_mr_hyde.pdf",
+               "introduction":"Idealistic young scientist Henry Jekyll struggles to unlock the secrets of the soul. Testing chemicals in his lab, he drinks a mixture he hopes will isolate - and eliminate - human evil. Instead it unleashes the dark forces within him, transforming him into the hideous and murderous Mr. Hyde.",
+               "id":"7"
+            },
+            {
+               "name":"The Brothers Karamazov",
+               "category":"novel",
+               "auther":"'Fyodor Dostoyevsky' ",
+               "price":"18.95",
+               "published-date":"1/11/1880",
+               "img-url":"../images/novel/book-8.jpg",
+               "book-url":"../../pdf/novel/the_brothers_karamazov.pdf",
+               "introduction":"The Brothers Karamasov is a murder mystery, a courtroom drama, and an exploration of erotic rivalry in a series of triangular love affairs involving the “wicked and sentimental” Fyodor Pavlovich Karamazov and his three sons―the impulsive and sensual Dmitri.",
+               "id":"8"
+            },
+            {
+               "name":"Robin Hood",
+               "category":"novel",
+               "auther":"Walter Scott",
+               "price":"12.48",
+               "published-date":"56,16/2/1883",
+               "img-url":"../images/novel/book-9.jpg",
+               "book-url":"../../pdf/novel/robin_hood_in_english.pdf",
+               "introduction":"Fooled into committing a crime by the king's foresters, young Robin Hood finds himself branded an outlaw. As he takes refuge in Sherwood Forest, he meets other hideaways who also unjustly find themselves on the wrong side of the law. ",
+               "id":"9"
+            },
+            {
+               "name":"The Jacket (The Star-Rover)",
+               "category":"novel",
+               "auther":"Jack London",
+               "price":" 13.95",
+               "published-date":"16/8/1915",
+               "img-url":"../images/novel/book-10.jpg",
+               "book-url":"../../pdf/novel/the_jacket.pdf",
+               "introduction":"A framing story is told in the first person by Darrell Standing, a university professor serving life imprisonment in San Quentin State Prison for murder.",
+               "id":"10"
+            }
+         ],
+         "shortStories":[
+            {
+               "name":"Romantic Legends of Spain",
+               "category":"short stories",
+               "auther":"Gustavo Adolfo Bécquer",
+               "price":"20.45",
+               "published-date":" 14/5/1909",
+               "img-url":"../images/Shortstories/book-2.jpg",
+               "book-url":"../../pdf/short stories/romantic_legends_of_spain.pdf",
+               "introduction":" Well, that is the Marquis of Moscoso, suitor to the widowed Countess of Villapineda. They say that before setting his eyes upon this lady, he had asked in marriage the daughter of a man of large fortune, but hush! Speaking of the devil—do you see that man coming on foot under the...",
+               "id":"1"
+            },
+            {
+               "name":"The Bet and Other Stories",
+               "category":"short stories",
+               "auther":"Anton Pavlovich Chekhov",
+               "price":"25.65",
+               "published-date":"6/7/1915",
+               "img-url":"../images/Shortstories/book-1.jpg",
+               "book-url":"../../pdf/short stories/the_bet_and_other_stories.pdf",
+               "introduction":"It was a dark autumn night. The old banker was pacing from corner to corner of his study, recalling to his mind the party he gave in the autumn fifteen years ago. There were many clever people at the party and much interesting conversation.",
+               "id":"2"
+            },
+            {
+               "name":"The Canterville Ghost",
+               "category":"short stories",
+               "auther":"'Oscar Wilde",
+               "price":"40.36",
+               "published-date":"2/2/1887",
+               "img-url":"../images/Shortstories/book-3.jpg",
+               "book-url":"../../pdf/short stories/the_canterville_ghost.pdf",
+               "introduction":"This is Oscar Wilde's tale of the American family moved into a British mansion, Canterville Chase, much to the annoyance of its tired ghost. The tale is rich with allusion.",
+               "id":"3"
+            },
+            {
+               "name":"The Portrait of Mr. W. H",
+               "category":"short stories ",
+               "auther":"Oscar Wilde",
+               "price":"11.72",
+               "published-date":"6/4/1943",
+               "img-url":"../images/Shortstories/book-4.jpg",
+               "book-url":"../../pdf/short stories/the_portrait_of_mr._w._h_.pdf",
+               "introduction":"an attempt to uncover the identity of Mr. W. H., the enigmatic dedicatee of Shakespeare's Sonnets. It is based on a theory, originated by Thomas Tyrwhitt.",
+               "id":"4"
+            },
+            {
+               "name":"White Nights",
+               "category":"short stories",
+               "auther":"Fedor Mikhaïlovitch Dostoïevski",
+               "price":"24.47",
+               "published-date":"'13/1/1973",
+               "img-url":"../images/Shortstories/book-5.jpg",
+               "book-url":"../../pdf/short stories/white_nights.pdf",
+               "introduction":"a story of a young man fighting his inner restlessness. His unnamed protagonist is a sensitive, poetic resident of the very Westernized St. Petersburg of the mid-nineteenth century",
+               "id":"5"
+            },
+            {
+               "name":"I Don’t Want to Win a Nobel Prize!",
+               "category":"short stories",
+               "auther":"EM Ariza",
+               "price":"11.99",
+               "published-date":"16/3/1856",
+               "img-url":"../images/Shortstories/book-6.jpg",
+               "book-url":"../../pdf/short stories/em_ariza.pdf",
+               "introduction":" As if Dracula had created the Best Blood Transfusion Award, or Nero the prize for Fire Fighter of the Decade, or Henry VIII for Wife of the Month. Wouldn’t any of these prizes be downright crazy? Well, that’s exactly why I’ve decided that I don’t want to win a Nobel Prize",
+               "id":"6"
+            },
+            {
+               "name":"A Woman’s Kingdom",
+               "category":"short stories",
+               "auther":"Anton Chekhov",
+               "price":"15.69",
+               "published-date":"5/6/1886",
+               "img-url":"../images/Shortstories/book-7.jpg",
+               "book-url":"../../pdf/short stories/a_woman_s_kingdom.pdf",
+               "introduction":"A Woman's Kingdom presents the world of Anna Akimovna. She is the rich factory owner whom everyone depends on for work and charity. However, although she has everyone admiring her, she is lonely and unhappy. She longs to marry.",
+               "id":"7"
+            },
+            {
+               "name":"What Christmas is as We Grow older",
+               "category":"short stories",
+               "auther":"Charles Dickens ",
+               "price":"18.95",
+               "published-date":"1/11/1880",
+               "img-url":"../images/Shortstories/book-8.jpg",
+               "book-url":"../../pdf/short stories/what_christmas_is_as_we_grow_older.pdf",
+               "introduction":"Published from 1851 to 1853, Household Words featured as its main attraction during the Christmas season a lengthy short story penned by Dickens himself. During these years Dickens’s world view underwent a sea change, from youthful optimism to looming disillusion with the course of human affairs.",
+               "id":"8"
+            },
+            {
+               "name":"The Gift of the Magi",
+               "category":"short stories",
+               "auther":"O. Henry",
+               "price":"12.48",
+               "published-date":"56,16/2/1883",
+               "img-url":"../images/Shortstories/book9.jpg",
+               "book-url":"../../pdf/short stories/the_gift_of_the_magi.pdf",
+               "introduction":"One dollar and eight-seven cents is all the money Della has in the world to buy her beloved husband a Christmas present. She has nothing to sell except her only treasure -- her long, beautiful brown hair.",
+               "id":"9"
+            },
+            {
+               "name":"At Your Age",
+               "category":"short stories",
+               "auther":"F. Scott Fitzgerald",
+               "price":" 13.95",
+               "published-date":"16/8/1915",
+               "img-url":"../images/Shortstories/book-10.jpg",
+               "book-url":"../../pdf/short stories/at_your_age.pdf",
+               "introduction":"At Your Age, a 1929 short story published in the Saturday Evening Post, contains all the trademark elements that F. Scott Fitzgerald's readers had come to expect by the end of the Jazz Age.",
+               "id":"10"
+            }
+         ],
+         "science":[
+            {
+               "id":"1",
+               "name":"Earth",
+               "category":"Science",
+               "author":"Carlowicz, Michael",
+               "introduction":"From its origins, NASA has studied our planet in novel ways, using ingenious tools to study physical processes at work—from beneath the crust to the edge of the atmosphere",
+               "price":"53.00",
+               "published-date":"20/2/2019",
+               "img-url":"../images/science/book-1.jpg",
+               "book-url":"../../pdf/science/book-1.pdf"
+            },
+            {
+               "id":"2",
+               "name":"Physics Essentials For Dummies",
+               "category":"Science",
+               "author":"Steven Holzner",
+               "introduction":"For students who just need to know the vital concepts of physics,whether as a refresher, for exam prep, or as a reference,Physics Essentials For Dummies is a must-have guide.",
+               "price":"9.49",
+               "published-date":"16/3/2010",
+               "img-url":"../images/science/book-2.jpg",
+               "book-url":"../../pdf/science/book-2.pdf"
+            },
+            {
+               "id":"3",
+               "name":"Climate Change and Migration",
+               "category":"Science",
+               "author":"Quentin Wodon",
+               "introduction":"The book constitutes a unique and thorough introduction to one of the most discussed but least understood consequences of climate change and brings together experts from a multitude of disciplines such as geography, anthropology and law, providing a valuable synthesis of research and debate",
+               "price":"5.25",
+               "published-date":"6/6/2014",
+               "img-url":"../images/science/book-3.jpg",
+               "book-url":"../../pdf/science/book-3.pdf"
+            },
+            {
+               "id":"4",
+               "name":"Basic Engineering Mathematics",
+               "category":"Science",
+               "author":"John Bird",
+               "introduction":"A wide range of courses have an intake that requires a basic, easy introduction to the key maths topics for engineering - Basic Engineering Mathematics is designed to fulfil that need.",
+               "price":"35.50",
+               "published-date":"12/9/2013",
+               "img-url":"../images/science/book-4.jpg",
+               "book-url":"../../pdf/science/book-4.pdf"
+            },
+            {
+               "id":"5",
+               "name":"Organic Chemistry For Dummies",
+               "category":"Science",
+               "author":"Arthur Winter",
+               "introduction":"A plain-English guide to one of the toughest science courses around Organic chemistry is rated among the most difficult courses that students take and is frequently the cause of washout among pre-med, medical, and nursing students",
+               "price":"14.00",
+               "published-date":"5/6/2008",
+               "img-url":"../images/science/book-5.jpg",
+               "book-url":"../../pdf/science/book-5.pdf"
+            },
+            {
+               "id":"6",
+               "name":"Space, Time and Einstein",
+               "category":"Science",
+               "author":"J. B. Kennedy",
+               "introduction":"An enlightening introduction to the philosophy of time and space. J.B. Kennedy offers an introduction to one of the liveliest and most popular fields in philosophy - time and space - aimed specifically at a beginning readership with no background in philosophy or science.",
+               "price":"23.70",
+               "published-date":"18/12/2014",
+               "img-url":"../images/science/book-6.jpg",
+               "book-url":"../../pdf/science/book-6.pdf"
+            },
+            {
+               "id":"7",
+               "name":"The Politics of the Environment",
+               "category":"Science",
+               "author":"Neil Carter",
+               "introduction":"The Politics of the Environment continues to analyse the relationship between 'green ideas' and other political doctrines, the development of green parties and public policymaking, and environmental issues at international, national and local levels",
+               "price":"21.10",
+               "published-date":"24/7/2018",
+               "img-url":"../images/science/book-7.jpg",
+               "book-url":"../../pdf/science/book-7.pdf"
+            },
+            {
+               "id":"8",
+               "name":"Essentials of Ecology",
+               "category":"Science",
+               "author":"Scott E. Spoolman",
+               "introduction":"Essentials of Ecology presents introductory ecology in an accessible, state-of-the-art format designed to cultivate the novice student's understanding of, and fascination with, the natural world",
+               "price":"55.25",
+               "published-date":"20/9/2015",
+               "img-url":"../images/science/book-8.jpg",
+               "book-url":"../../pdf/science/book-8.pdf"
+            },
+            {
+               "id":"9",
+               "name":"Cell Biology",
+               "category":"Science",
+               "author":"Robert M. Klein, George C. Enders",
+               "introduction":"This book was an excellent refresher for anyone looking to review information for either their final course exam or for the USMLE Step 1.",
+               "price":"60.00",
+               "published-date":"9/12/2007",
+               "img-url":"../images/science/book-9.jpg",
+               "book-url":"../../pdf/science/book-9.pdf"
+            },
+            {
+               "id":"10",
+               "name":"Mathematical Physics",
+               "category":"Science",
+               "author":"Bruce R. Kusse and Erik A. Westwig",
+               "introduction":"This is an ideal text for upper-level undergraduates in physics, applied physics, physical chemistry, biophysics, and all areas of engineering. It allows physics professors to prepare students for a wide range of employment in science and engineering and makes an excellent reference for scientists and engineers in industry.",
+               "price":"121.38",
+               "published-date":"10/3/2006",
+               "img-url":"../images/science/book-10.jpg",
+               "book-url":"../../pdf/science/book-10.pdf"
+            }
+         ],
+         "Art":[
+            {
+               "id":"1",
+               "name":"Digital Colour in Graphic Design",
+               "category":"Art",
+               "author":"Ken Pender",
+               "introduction":"Complete, practical guide to handling colour graphics on the desktop for Mac and PC - from the scanning, creation and manipulation of images to processing for different colour output devices",
+               "price":"7.25",
+               "published-date":"17/11/1998",
+               "img-url":"../images/Art/book-1.jpg",
+               "book-url":"../../pdf/Art/book-1.pdf"
+            },
+            {
+               "id":"2",
+               "name":"Drawing Cartoons & Comics for Dummies",
+               "category":"Art",
+               "author":"Fairrington, Brian",
+               "introduction":"A unique reference for creating and marketing original cartoons and comics. An original American art form, comics thrill millions of people across the globe. Combining step-by-step instruction with expert tips and advice, Drawing Cartoons & Comics For Dummies is a one-stop reference for creating and marketing original cartoons and comics",
+               "price":"13.00",
+               "published-date":"15/7/2009",
+               "img-url":"../images/Art/book-2.jpg",
+               "book-url":"../../pdf/Art/book-2.pdf"
+            },
+            {
+               "id":"3",
+               "name":"Art of Drawing the Human Body",
+               "category":"Art",
+               "author":"Parramon",
+               "introduction":"The complete comprehensive guide to drawing the human body Professional advice and easy to follow techniques.",
+               "price":"23.50",
+               "published-date":"23/6/2007",
+               "img-url":"../images/Art/book-3.jpg",
+               "book-url":"../../pdf/Art/book-3.pdf"
+            },
+            {
+               "id":"4",
+               "name":"Interior Design & Interior Architecture",
+               "category":"Art",
+               "author":"John",
+               "introduction":" In this comprehensive work, an international and interdisciplinary team of authors presents the essential aspects of the various fields of contemporary interior architecture and design. The project examples are illustrated with brilliant photographs and plans.",
+               "price":"35.00",
+               "published-date":"25/6/2007",
+               "img-url":"../images/Art/book-4.jpg",
+               "book-url":"../../pdf/Art/book-4.pdf"
+            },
+            {
+               "id":"5",
+               "name":"Creative Photography Ideas",
+               "category":"Art",
+               "author":"Emanial",
+               "introduction":"This book sets out more than 40 creative techniques and subject ideas to help you produce innovative photographs",
+               "price":"15.25",
+               "published-date":"20/8/2015",
+               "img-url":"../images/Art/book-5.jpg",
+               "book-url":"../../pdf/Art/book-5.pdf"
+            },
+            {
+               "id":"6",
+               "name":"Food Styling for Photographers",
+               "category":"Art",
+               "author":"Linda Bellingham and Jean Ann Bybee",
+               "introduction":"Food Styling for Photographers is the next best thing to having renowned food stylist Linda Bellingham by your side.",
+               "price":"10.92",
+               "published-date":"21/11/2012",
+               "img-url":"../images/Art/book-6.jpg",
+               "book-url":"../../pdf/Art/book-6.pdf"
+            },
+            {
+               "id":"7",
+               "name":"Mastering Photoshop for Web Design",
+               "category":"Art",
+               "author":"Sven Lennartz",
+               "introduction":"an intuitive guide to color management, as well as detailed instructions on how to get the most out of paths and brushes.",
+               "price":"25.00",
+               "published-date":"25/4/2011",
+               "img-url":"../images/Art/book-7.jpg",
+               "book-url":"../../pdf/Art/book-7.pdf"
+            },
+            {
+               "id":"8",
+               "name":"The Green Beauty Guide",
+               "category":"Art",
+               "author":"Julie Gabriel",
+               "introduction":"This book presents a problem and provides a resolution. It even lists a few diy beauty solutions for man, woman, and baby",
+               "price":"33.30",
+               "published-date":"16/9/2016",
+               "img-url":"../images/Art/book-8.jpg",
+               "book-url":"../../pdf/Art/book-8.pdf"
+            },
+            {
+               "id":"9",
+               "name":"Pencil Drawing Techniques",
+               "category":"Art",
+               "author":"David Lewis",
+               "introduction":"Here is a really good book for the artist who wants to develop his or her pencil drawing abilities, whether it's to improve your preliminary sketch work, or to create beautiful pencil drawings complete in their own right.Pencil Drawing Techniques brings together six of today's best artists, all of whom are incredibly fine instructors as well.",
+               "price":"12.30",
+               "published-date":"30/5/1964",
+               "img-url":"../images/Art/book-9.jpg",
+               "book-url":"../../pdf/Art/book-9.pdf"
+            },
+            {
+               "id":"10",
+               "name":"Decorative Knots",
+               "category":"Art",
+               "author":"Mario Begon",
+               "introduction":"The Ultimate Book of Decorative Knots is an amazing resource of both practical and ornamental knots - flat knots, braids, plaits, webbing, woven knots, knob knots, solid knots, netting and Turk's head knots in all their varieties.",
+               "price":"6.50",
+               "published-date":"30/9/1981",
+               "img-url":"../images/Art/book-10.jpg",
+               "book-url":"../../pdf/Art/book-10.pdf"
+            }
+         ]
+      }
+   ]
+}

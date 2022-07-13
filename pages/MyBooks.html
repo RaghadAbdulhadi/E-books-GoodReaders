@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library GoodReaders</title>
+    <link rel="stylesheet" href="../css/MyBooks.css">
+    <!-- font-awesome-->
+    <script src="https://kit.fontawesome.com/ea76edfe1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="navbar-center">
+                </span>
+                <a href="../index.html">
+                    <img src="../images/GRlogo.png" alt="store logo">
+                </a>
+                <a href="../index.html">HOME</a>
+                <nav id="multi-level-nav" class="multi-level-nav menu" role="navigation">
+                    <ul class="browse">
+                        <li class="has-children">
+                            <a href="Browse.html">BROWSE<button class="dropdown-toggle" aria-expanded="false"><span
+                                        class="screen-reader-text">Expand child menu</span></button></a>
+                            <ul class="sub-menu">
+                                <li><a href="Browse.html#art">Art</a></li>
+                                <li><a href="Browse.html#history">History</a></li>
+                                <li><a href="Browse.html#science">Science</a></li>
+                                <li><a href="Browse.html#novels">Novels</a></li>
+                                <li><a href="Browse.html#short-stories">Short Stories</a></li>
+                                <li><a href="Browse.html#poetry">Poetry</a></li>
+                                <li><a href="Browse.html#fitness">Fitness</a></li>
+                                <li><a href="Browse.html#cookbooks">Cookbooks</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="AboutUs.html">ABOUT US</a>
+                <div class="cart-btn">
+                    <a href="MyBooks.html">MyBOOKS</a>
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div id="cart-items">0</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <h1>My Books</h1>
+        <div class="container">
+            <div class="sub-container" id="main-div">
+            </div>
+            <p id="total">Total Price:</p>
+            <button id="checkout">Checkout</button>
+        </div>
+    </body>
+    <footer class="footer">
+        <section class="footer-widgets centered">
+            <div class="widget footer-menu">
+                <h4 class="widget-title">Find your way</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Ads</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- .widget -->
+            <div class="widget footer-cta">
+                <h4 class="widget-title">PLACE AN ORDER</h4>
+                <p>What are you waiting for? The book is ready for you to read.</p>
+                <a href="Browse.html">SHOP NOW!</a>
+            </div>
+            <!-- .widget -->
+            <div class="widget footer-address">
+                <address>
+                    <h4 class="widget-title"> GoodReader</h4>
+                    <p>
+                        Amman, <br>
+                        Jordan <br>
+                    </p>
+                </address>
+            </div>
+            <!-- .widget -->
+        </section>
+        <!-- .footer-widgets -->
+        <nav class="social-nav" role="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i></a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i></a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- .social-nav -->
+    </footer>
+    <!-- .footer -->
+    <script type="text/javascript" src="../js/libs/jquery-2.1.3.min.js"></script>
+    <script src="../app.js"></script>
+    <script src="../js/MyBooks.js"></script>
+</body>
+
+</html>

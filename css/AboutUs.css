@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edeef7;
+    margin: 0;
+}
+
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 20px;
+    position: relative;
+    margin-left: 2px;
+    margin-right: 10px;
+    max-width: 15%;
+    transition: transform .2s;
+}
+
+.column:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card {
+    box-shadow: 0 8px 8px black;
+    margin: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 250px;
+    height: 500px;
+    margin-left: 60px;
+}
+
+.about-section {
+    padding: 100px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    font-size: large;
+    background-image: url('https://img3.goodfon.com/wallpaper/nbig/f/5a/makro-knigi-kniga-cvety.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 250px;
+}
+
+.container {
+    padding: 0 16px;
+    text-align: center;
+    position: relative;
+    height: 50%;
+    overflow-wrap: anywhere;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+
+.button:hover {
+    background-color: #f9f3f3;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: coral;
+}
+
+.container p {
+    font-style: italic;
+}
+
+#lasdiv {
+    clear: both;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.footer {
+    padding: 3em 3em 0;
+    background: hsl(0, 0%, 10%);
+    color: #FFFCED;
+}
+
+@media screen and (min-width: 50em) {
+    .footer-widgets {
+        -js-display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+    .widget {
+        width: 30%;
+    }
+}
+
+.widget-title {
+    font-size: 1.3em;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-menu a {
+    display: block;
+    padding-bottom: .5em;
+    color: #FFFCED;
+    text-decoration: none;
+}
+
+.footer-menu a:focus::before,
+.footer-menu a:hover::before {
+    margin-right: .5em;
+    content: "›";
+}
+
+.footer-cta a {
+    display: block;
+    margin-top: 1em;
+    padding: 0 .5em;
+    font-size: 2em;
+    font-weight: 900;
+    color: #fffced;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid #fffced;
+}
+
+.footer-cta a:focus,
+.footer-cta a:hover {
+    background: var(--primaryColor)
+}
+
+.social-nav {
+    margin: 4em -3em 0;
+    padding: 1em 0;
+    background: var(--mainGrey)
+}
+
+.social-nav ul {
+    -js-display: flex;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-nav a {
+    padding: 1em;
+}
+
+.social-nav svg {
+    width: 1.4em;
+    height: auto;
+}
+
+.social-nav path {
+    fill: #FFFCED;
+}
+
+.social-nav ul li a i {
+    font-size: 1.5em;
+    color: var(--mainBlack);
+}

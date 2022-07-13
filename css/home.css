@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+:root {
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "Lato", sans-serif;
+    background-color: #edeef7;
+}
+
+.products {
+    padding-bottom: 4rem;
+}
+
+
+/* Nav bar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(214, 212, 211);
+    font-family: Arial, Helvetica, sans-serif im !important;
+    z-index: 1;
+}
+
+.navbar-center {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.navbar-center a {
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+}
+
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--primaryColor);
+    padding: 0 5px;
+    border-radius: 30%;
+    color: var(--mainWhite);
+}
+
+
+/* End nav bar */
+
+
+/* hero */
+
+.hero {
+    min-height: calc(100vh - 70px);
+    background: url("http://thesweetsetup.com/wp-content/uploads/2016/12/eBooks-Ecosystems-SS-Hero-2.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 2rem;
+}
+
+.banner-title {
+    font-family: monospace;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.banner-btn {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background: transparent;
+    color: var(--primaryColor);
+}
+
+
+/* End of hero */
+
+
+/* products */
+
+.section-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+
+.section-name {
+    font-weight: 500px;
+    margin: 20px 90px;
+    font-size: 1.5rem;
+}
+
+.products-center {
+    width: 50vw;
+    margin: 0 30px;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap: 6rem;
+    grid-row-gap: 1rem;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.bag-btn {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background: var(--primaryColor);
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 0.75rem;
+    letter-spacing: var(--mainSpacing);
+    font-weight: bold;
+    transition: var(--mainTransition);
+    transform: translateX(101%);
+    cursor: pointer;
+}
+
+.bag-btn:hover {
+    color: var(--mainWhite);
+}
+
+.fa-shopping-cart {
+    margin-right: 0.5rem;
+}
+
+.img-container:hover .bag-btn {
+    transform: translateX(0);
+}
+
+.product-img {
+    display: block;
+    width: 100%;
+    min-height: 12rem;
+    transition: var(--mainTransition);
+}
+
+.img-container:hover .product-img {
+    opacity: 0.5;
+}
+
+.product h3 {
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+}
+
+.products .section-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.product h4 {
+    margin-top: 0.7rem;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    text-align: center;
+}
+
+.products h3 {
+    margin: 10px 30px;
+    color: var(--mainBlack);
+    font-weight: 400px;
+    font-size: 15px;
+}
+
+.products hr {
+    width: 50%;
+    margin: 20px 90px;
+}
+
+.container-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quotes {
+    background-color: var(--mainGrey);
+    padding: 0 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.quotes ul {
+    list-style-type: none;
+}
+
+.quotes ul li {
+    margin: 30px 0px;
+    font-size: 1.5em;
+    font-family: 'Lobster Two', cursive;
+}
+
+.quotes h3 {
+    margin: 10px 0;
+    font-size: 1.6em;
+    font-weight: 300px;
+    letter-spacing: var(--mainSpacing);
+}
+
+
+/* End of products */
+
+
+/* toggle menu BROWSE */
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+@media screen and (max-width: 30em) {
+    .multi-level-nav ul ul li a {
+        padding-left: 2em;
+    }
+    .dropdown-toggle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    .multi-level-nav ul {
+        display: grid;
+        justify-content: space-between;
+    }
+    .multi-level-nav li {
+        position: relative;
+        list-style-type: none;
+    }
+    li.has-children>a {
+        padding-right: 0;
+    }
+    .multi-level-nav ul ul {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        background-color: var(--mainGrey);
+    }
+    .multi-level-nav ul ul li {
+        padding: 10px;
+        list-style-type: none;
+    }
+    .multi-level-nav ul .toggled-on {
+        display: grid;
+    }
+    .dropdown-toggle {
+        margin: 0;
+        padding: 0 .5em;
+        border: 0;
+        font-family: 'FontAwesome';
+        content: "";
+        text-transform: lowercase;
+        color: white;
+        background-color: var(--primaryColor);
+    }
+    .dropdown-toggle:after {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 42px;
+        color: white;
+        content: "\f107";
+        line-height: 1em;
+    }
+    .dropdown-toggle:hover,
+    .dropdown-toggle:focus {
+        background: var(--mainBlack);
+    }
+    .dropdown-toggle.toggle-on:after {
+        content: "\f106";
+    }
+}
+
+
+/* new code */
+
+
+/* footer */
+
+.footer {
+    padding: 3em 3em 0;
+    background: hsl(0, 0%, 10%);
+    color: #FFFCED;
+}
+
+@media screen and (min-width: 50em) {
+    .footer-widgets {
+        -js-display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+    .widget {
+        width: 30%;
+    }
+}
+
+.widget-title {
+    font-size: 1.3em;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-menu a {
+    display: block;
+    padding-bottom: .5em;
+    color: #FFFCED;
+    text-decoration: none;
+}
+
+.footer-menu a:focus::before,
+.footer-menu a:hover::before {
+    margin-right: .5em;
+    content: "›";
+}
+
+.footer-cta a {
+    display: block;
+    margin-top: 1em;
+    padding: 0 .5em;
+    font-size: 2em;
+    font-weight: 900;
+    color: #fffced;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid #fffced;
+}
+
+.footer-cta a:focus,
+.footer-cta a:hover {
+    background: var(--primaryColor)
+}
+
+.social-nav {
+    margin: 4em -3em 0;
+    padding: 1em 0;
+    background: var(--mainGrey)
+}
+
+.social-nav ul {
+    -js-display: flex;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-nav a {
+    padding: 1em;
+}
+
+.social-nav svg {
+    width: 1.4em;
+    height: auto;
+}
+
+.social-nav path {
+    fill: #FFFCED;
+}
+
+.social-nav ul li a i {
+    font-size: 1.5em;
+    color: var(--mainBlack);
+}
+
+
+/* footer */
+
+.navbar-center a img {
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    height: 66px;
+    width: 190px;
+    margin-top: 22px;
+}
